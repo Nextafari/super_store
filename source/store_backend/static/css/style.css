@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    background-color: aqua;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+.hero-image{
+    /* Use "linear-gradient" to add a darken background effect to the image. 
+    This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("{% static 'img/396.png'%}");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

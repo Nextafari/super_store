@@ -1,0 +1,9 @@
+{% load bootstrap4 %}
+<form action='/account/' method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+</form>
+
+
+<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
